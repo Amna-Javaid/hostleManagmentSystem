@@ -31,7 +31,7 @@ namespace hostleManagmentSystem
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -111,7 +111,7 @@ namespace hostleManagmentSystem
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(601, 65);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(51, 21);
+            this.checkBox1.Size = new System.Drawing.Size(63, 24);
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "Yes";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -139,7 +139,7 @@ namespace hostleManagmentSystem
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(720, 160);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(51, 21);
+            this.checkBox2.Size = new System.Drawing.Size(63, 24);
             this.checkBox2.TabIndex = 8;
             this.checkBox2.Text = "Yes";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -163,7 +163,7 @@ namespace hostleManagmentSystem
             this.btnAddRoom.TabIndex = 10;
             this.btnAddRoom.Text = "Add Room";
             this.btnAddRoom.UseVisualStyleBackColor = false;
-            this.btnAddRoom.Click += new System.EventHandler(this.button1_Click);
+            this.btnAddRoom.Click += new System.EventHandler(this.btnAddRoom_Click);
             // 
             // btnSearch
             // 
@@ -176,6 +176,7 @@ namespace hostleManagmentSystem
             this.btnSearch.TabIndex = 11;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnUpdate
             // 
@@ -189,6 +190,7 @@ namespace hostleManagmentSystem
             this.btnUpdate.TabIndex = 12;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -202,6 +204,7 @@ namespace hostleManagmentSystem
             this.btnDelete.TabIndex = 13;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dataGridView1
             // 
@@ -210,14 +213,14 @@ namespace hostleManagmentSystem
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.Location = new System.Drawing.Point(52, 276);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
@@ -249,22 +252,22 @@ namespace hostleManagmentSystem
             // labelRoomExist
             // 
             this.labelRoomExist.AutoSize = true;
-            this.labelRoomExist.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRoomExist.ForeColor = System.Drawing.Color.Yellow;
+            this.labelRoomExist.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRoomExist.ForeColor = System.Drawing.Color.IndianRed;
             this.labelRoomExist.Location = new System.Drawing.Point(216, 92);
             this.labelRoomExist.Name = "labelRoomExist";
-            this.labelRoomExist.Size = new System.Drawing.Size(66, 21);
+            this.labelRoomExist.Size = new System.Drawing.Size(59, 19);
             this.labelRoomExist.TabIndex = 17;
             this.labelRoomExist.Text = "setText";
             // 
             // labelRoom
             // 
             this.labelRoom.AutoSize = true;
-            this.labelRoom.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRoom.ForeColor = System.Drawing.Color.Yellow;
+            this.labelRoom.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRoom.ForeColor = System.Drawing.Color.IndianRed;
             this.labelRoom.Location = new System.Drawing.Point(231, 197);
             this.labelRoom.Name = "labelRoom";
-            this.labelRoom.Size = new System.Drawing.Size(66, 21);
+            this.labelRoom.Size = new System.Drawing.Size(59, 19);
             this.labelRoom.TabIndex = 18;
             this.labelRoom.Text = "setText";
             // 
@@ -305,15 +308,14 @@ namespace hostleManagmentSystem
 
         }
 
+      
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             throw new NotImplementedException();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
+        
 
         private void label3_Click(object sender, EventArgs e)
         {
