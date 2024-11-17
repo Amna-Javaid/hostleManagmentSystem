@@ -33,7 +33,7 @@
             this.ManageRooms = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnLogOut = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnNewStudent = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -110,16 +110,17 @@
             this.btnLogOut.UseVisualStyleBackColor = true;
             this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
-            // button2
+            // btnNewStudent
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(34, 270);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(250, 45);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "New Student";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnNewStudent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNewStudent.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewStudent.Location = new System.Drawing.Point(34, 270);
+            this.btnNewStudent.Name = "btnNewStudent";
+            this.btnNewStudent.Size = new System.Drawing.Size(250, 45);
+            this.btnNewStudent.TabIndex = 5;
+            this.btnNewStudent.Text = "New Student";
+            this.btnNewStudent.UseVisualStyleBackColor = true;
+            this.btnNewStudent.Click += new System.EventHandler(this.btnNewStudent_Click);
             // 
             // button3
             // 
@@ -244,7 +245,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnNewStudent);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ManageRooms);
             this.Controls.Add(this.pictureBox1);
@@ -267,7 +268,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button ManageRooms;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnNewStudent;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;

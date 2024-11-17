@@ -38,5 +38,11 @@ namespace hostleManagmentSystem
             AddRoom room = new AddRoom();
             room.Show();
         }
+
+        private void btnNewStudent_Click(object sender, EventArgs e)
+        {
+            NewStudent ns = new NewStudent();
+            ns.Show();
+        }
     }
 }
