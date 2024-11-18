@@ -55,7 +55,13 @@ namespace hostleManagmentSystem
         }
 
         private void SaveBtn_Click(object sender, EventArgs e)
+
         {
+            if(txtMobile.Text != "" && txtName.Text != "" && txtFather.Text != "" && txtMother.Text != "" && txtEmail.Text != "" && txtCollege.Text != "" && txtPermenent.Text != "" && txtIdProof.Text != "" && comboRoomNo.SelectedIndex != -1)
+            {
+
+           
+
             Int64 mobile = Int64.Parse(txtMobile.Text);
             String name = txtName.Text;
             String fname = txtFather.Text;
@@ -72,6 +78,18 @@ namespace hostleManagmentSystem
             fn.setData(query, "Student Registered Successfully");
 
             clearAll();
+            }
+
+            else
+            {
+                MessageBox.Show("Fill all the fields ", "Information!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+        }
+
+        private void ClearBtn_Click(object sender, EventArgs e)
+        {
+            this.clearAll();
         }
     }
 }

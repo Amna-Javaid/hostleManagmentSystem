@@ -246,6 +246,7 @@
             this.ClearBtn.TabIndex = 20;
             this.ClearBtn.Text = "Clear";
             this.ClearBtn.UseVisualStyleBackColor = false;
+            this.ClearBtn.Click += new System.EventHandler(this.ClearBtn_Click);
             // 
             // NewStudent
             // 
