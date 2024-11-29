@@ -17,7 +17,7 @@ namespace hostleManagmentSystem
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = " data source = DESKTOP-OGRUVIS; database =hostel;integrated security =true  ";
+            con.ConnectionString = " data source = ASAD-RASHEED; database =hostel;integrated security =true  ";
             return con;
         }
 
