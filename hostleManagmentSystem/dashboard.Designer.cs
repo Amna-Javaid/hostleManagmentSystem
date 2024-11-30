@@ -34,12 +34,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnLogOut = new System.Windows.Forms.Button();
             this.btnNewStudent = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnUpdateDeleteStudent = new System.Windows.Forms.Button();
+            this.btnStudentFees = new System.Windows.Forms.Button();
+            this.btnAllStudentLiving = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnNewEmployee = new System.Windows.Forms.Button();
+            this.btnLeavedStudents = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -54,9 +54,9 @@
             this.title.BackColor = System.Drawing.Color.CornflowerBlue;
             this.title.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.White;
-            this.title.Location = new System.Drawing.Point(557, 55);
+            this.title.Location = new System.Drawing.Point(495, 44);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(429, 38);
+            this.title.Size = new System.Drawing.Size(360, 32);
             this.title.TabIndex = 1;
             this.title.Text = "Hostel Managment System";
             // 
@@ -66,9 +66,9 @@
             this.label1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(96, 75);
+            this.label1.Location = new System.Drawing.Point(85, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 34);
+            this.label1.Size = new System.Drawing.Size(122, 28);
             this.label1.TabIndex = 2;
             this.label1.Text = "Menu Bar";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -77,9 +77,10 @@
             // 
             this.ManageRooms.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ManageRooms.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ManageRooms.Location = new System.Drawing.Point(34, 195);
+            this.ManageRooms.Location = new System.Drawing.Point(30, 156);
+            this.ManageRooms.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ManageRooms.Name = "ManageRooms";
-            this.ManageRooms.Size = new System.Drawing.Size(250, 45);
+            this.ManageRooms.Size = new System.Drawing.Size(222, 36);
             this.ManageRooms.TabIndex = 3;
             this.ManageRooms.Text = "Manage Rooms";
             this.ManageRooms.UseVisualStyleBackColor = true;
@@ -93,18 +94,20 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1500, 130);
+            this.panel1.Size = new System.Drawing.Size(1333, 104);
             this.panel1.TabIndex = 4;
             // 
             // btnLogOut
             // 
             this.btnLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogOut.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogOut.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogOut.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.btnLogOut.Location = new System.Drawing.Point(1326, 40);
+            this.btnLogOut.Location = new System.Drawing.Point(1179, 32);
+            this.btnLogOut.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Size = new System.Drawing.Size(144, 69);
+            this.btnLogOut.Size = new System.Drawing.Size(128, 55);
             this.btnLogOut.TabIndex = 15;
             this.btnLogOut.Text = "Log out";
             this.btnLogOut.UseVisualStyleBackColor = true;
@@ -114,87 +117,100 @@
             // 
             this.btnNewStudent.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNewStudent.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewStudent.Location = new System.Drawing.Point(34, 270);
+            this.btnNewStudent.Location = new System.Drawing.Point(30, 216);
+            this.btnNewStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnNewStudent.Name = "btnNewStudent";
-            this.btnNewStudent.Size = new System.Drawing.Size(250, 45);
+            this.btnNewStudent.Size = new System.Drawing.Size(222, 36);
             this.btnNewStudent.TabIndex = 5;
             this.btnNewStudent.Text = "New Student";
             this.btnNewStudent.UseVisualStyleBackColor = true;
             this.btnNewStudent.Click += new System.EventHandler(this.btnNewStudent_Click);
             // 
-            // button3
+            // btnUpdateDeleteStudent
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(32, 345);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(250, 45);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Update Student";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnUpdateDeleteStudent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUpdateDeleteStudent.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateDeleteStudent.Location = new System.Drawing.Point(28, 276);
+            this.btnUpdateDeleteStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnUpdateDeleteStudent.Name = "btnUpdateDeleteStudent";
+            this.btnUpdateDeleteStudent.Size = new System.Drawing.Size(222, 36);
+            this.btnUpdateDeleteStudent.TabIndex = 6;
+            this.btnUpdateDeleteStudent.Text = "Update Student";
+            this.btnUpdateDeleteStudent.UseVisualStyleBackColor = true;
+            this.btnUpdateDeleteStudent.Click += new System.EventHandler(this.btnUpdateDeleteStudent_Click);
             // 
-            // button4
+            // btnStudentFees
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(34, 420);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(250, 45);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Student Fees";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnStudentFees.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStudentFees.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStudentFees.Location = new System.Drawing.Point(30, 336);
+            this.btnStudentFees.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStudentFees.Name = "btnStudentFees";
+            this.btnStudentFees.Size = new System.Drawing.Size(222, 36);
+            this.btnStudentFees.TabIndex = 7;
+            this.btnStudentFees.Text = "Student Fees";
+            this.btnStudentFees.UseVisualStyleBackColor = true;
+            this.btnStudentFees.Click += new System.EventHandler(this.btnStudentFees_Click);
             // 
-            // button5
+            // btnAllStudentLiving
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(32, 495);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(250, 45);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "All students";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnAllStudentLiving.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAllStudentLiving.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAllStudentLiving.Location = new System.Drawing.Point(28, 396);
+            this.btnAllStudentLiving.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAllStudentLiving.Name = "btnAllStudentLiving";
+            this.btnAllStudentLiving.Size = new System.Drawing.Size(222, 36);
+            this.btnAllStudentLiving.TabIndex = 8;
+            this.btnAllStudentLiving.Text = "All students";
+            this.btnAllStudentLiving.UseVisualStyleBackColor = true;
+            this.btnAllStudentLiving.Click += new System.EventHandler(this.btnAllStudentLiving_Click);
             // 
             // button6
             // 
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(32, 720);
+            this.button6.Location = new System.Drawing.Point(28, 576);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(250, 45);
+            this.button6.Size = new System.Drawing.Size(222, 36);
             this.button6.TabIndex = 9;
             this.button6.Text = "Update Employee";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnNewEmployee
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(32, 645);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(250, 45);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "New Employee";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnNewEmployee.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNewEmployee.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewEmployee.Location = new System.Drawing.Point(28, 516);
+            this.btnNewEmployee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnNewEmployee.Name = "btnNewEmployee";
+            this.btnNewEmployee.Size = new System.Drawing.Size(222, 36);
+            this.btnNewEmployee.TabIndex = 10;
+            this.btnNewEmployee.Text = "New Employee";
+            this.btnNewEmployee.UseVisualStyleBackColor = true;
+            this.btnNewEmployee.Click += new System.EventHandler(this.btnNewEmployee_Click);
             // 
-            // button8
+            // btnLeavedStudents
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(32, 570);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(250, 45);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "Leaved Students";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnLeavedStudents.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLeavedStudents.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeavedStudents.Location = new System.Drawing.Point(28, 456);
+            this.btnLeavedStudents.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLeavedStudents.Name = "btnLeavedStudents";
+            this.btnLeavedStudents.Size = new System.Drawing.Size(222, 36);
+            this.btnLeavedStudents.TabIndex = 11;
+            this.btnLeavedStudents.Text = "Leaved Students";
+            this.btnLeavedStudents.UseVisualStyleBackColor = true;
+            this.btnLeavedStudents.Click += new System.EventHandler(this.btnLeavedStudents_Click);
             // 
             // button9
             // 
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(32, 795);
+            this.button9.Location = new System.Drawing.Point(28, 636);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(250, 45);
+            this.button9.Size = new System.Drawing.Size(222, 36);
             this.button9.TabIndex = 12;
             this.button9.Text = "Employee payment";
             this.button9.UseVisualStyleBackColor = true;
@@ -203,9 +219,10 @@
             // 
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(32, 870);
+            this.button10.Location = new System.Drawing.Point(28, 696);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(250, 45);
+            this.button10.Size = new System.Drawing.Size(222, 36);
             this.button10.TabIndex = 13;
             this.button10.Text = "All Employee";
             this.button10.UseVisualStyleBackColor = true;
@@ -213,9 +230,10 @@
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(34, 945);
+            this.button11.Location = new System.Drawing.Point(30, 756);
+            this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(250, 45);
+            this.button11.Size = new System.Drawing.Size(222, 36);
             this.button11.TabIndex = 14;
             this.button11.Text = "Leaved Employee";
             this.button11.UseVisualStyleBackColor = true;
@@ -223,33 +241,35 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::hostleManagmentSystem.Properties.Resources.hostel;
-            this.pictureBox1.Location = new System.Drawing.Point(315, 195);
+            this.pictureBox1.Location = new System.Drawing.Point(280, 156);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1500, 796);
+            this.pictureBox1.Size = new System.Drawing.Size(1333, 637);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1500, 1106);
+            this.ClientSize = new System.Drawing.Size(1333, 882);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.btnLeavedStudents);
+            this.Controls.Add(this.btnNewEmployee);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnAllStudentLiving);
+            this.Controls.Add(this.btnStudentFees);
+            this.Controls.Add(this.btnUpdateDeleteStudent);
             this.Controls.Add(this.btnNewStudent);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ManageRooms);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "dashboard";
@@ -269,12 +289,12 @@
         private System.Windows.Forms.Button ManageRooms;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnNewStudent;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnUpdateDeleteStudent;
+        private System.Windows.Forms.Button btnStudentFees;
+        private System.Windows.Forms.Button btnAllStudentLiving;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnNewEmployee;
+        private System.Windows.Forms.Button btnLeavedStudents;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
