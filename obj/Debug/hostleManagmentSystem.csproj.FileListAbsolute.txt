@@ -1,0 +1,40 @@
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\bin\Debug\hostleManagmentSystem.exe.config
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\bin\Debug\hostleManagmentSystem.exe
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\bin\Debug\hostleManagmentSystem.pdb
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.AddRoom.resources
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.dashboard.resources
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.Form1.resources
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.NewStudent.resources
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.Properties.Resources.resources
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.UpdateDeleteStudent.resources
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.exe
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.pdb
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.StudentFees.resources
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.AllStudentLiving.resources
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\bin\Debug\Guna.UI2.dll
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleMa.E07595D1.Up2Date
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.LeavedStudent.resources
+C:\Users\Administrator\Documents\ASAD RASHEED\4rth semester\DBMS\hostleManagmentSystem-master_3\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.NewEmplyee.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\bin\Debug\hostleManagmentSystem.exe.config
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\bin\Debug\hostleManagmentSystem.exe
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\bin\Debug\hostleManagmentSystem.pdb
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\bin\Debug\Guna.UI2.dll
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.csproj.AssemblyReference.cache
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.AddRoom.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.AllStudentLiving.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.dashboard.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.Form1.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.LeavedStudent.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.NewEmplyee.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.NewStudent.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.Properties.Resources.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.StudentFees.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.UpdateDeleteStudent.resources
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.csproj.GenerateResource.cache
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.csproj.CoreCompileInputs.cache
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleMa.E07595D1.Up2Date
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.exe
+C:\Users\HI\Downloads\hostleManagmentSystem\hostleManagmentSystem\hostleManagmentSystem\obj\Debug\hostleManagmentSystem.pdb
