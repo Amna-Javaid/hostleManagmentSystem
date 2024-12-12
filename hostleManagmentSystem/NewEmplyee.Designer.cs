@@ -220,6 +220,10 @@
             this.label10.Size = new System.Drawing.Size(138, 21);
             this.label10.TabIndex = 24;
             this.label10.Text = "Mobile Number";
+<<<<<<< HEAD
+=======
+          
+>>>>>>> bushraj
             // 
             // btnSave
             // 

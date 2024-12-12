@@ -74,5 +74,38 @@ namespace hostleManagmentSystem
             NewEmplyee newEmplyee = new NewEmplyee();   
             newEmplyee.Show();
         }
+<<<<<<< HEAD
+=======
+
+        private void btnUpdateDeleteEmployee_Click(object sender, EventArgs e)
+        {
+          UpdateDeleteEmployee ue=new UpdateDeleteEmployee();
+            ue.Show();
+        }
+
+        private void dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEmployeePayment_Click(object sender, EventArgs e)
+        {
+            EmployeePayment ep = new EmployeePayment();
+            ep.Show();
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            AllEmpployeeWorking aew=new AllEmpployeeWorking();
+            aew.Show();
+        }
+
+        private void btnLeavedEmployee_Click(object sender, EventArgs e)
+        {
+            LeavedEmployee ls = new LeavedEmployee();  
+            ls.Show();
+        }
+>>>>>>> bushraj
     }
 }

@@ -37,12 +37,21 @@
             this.btnUpdateDeleteStudent = new System.Windows.Forms.Button();
             this.btnStudentFees = new System.Windows.Forms.Button();
             this.btnAllStudentLiving = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.button6 = new System.Windows.Forms.Button();
             this.btnNewEmployee = new System.Windows.Forms.Button();
             this.btnLeavedStudents = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+=======
+            this.btnUpdateDeleteEmployee = new System.Windows.Forms.Button();
+            this.btnNewEmployee = new System.Windows.Forms.Button();
+            this.btnLeavedStudents = new System.Windows.Forms.Button();
+            this.btnEmployeePayment = new System.Windows.Forms.Button();
+            this.btnAllEmployeeWorking = new System.Windows.Forms.Button();
+            this.btnLeavedEmployee = new System.Windows.Forms.Button();
+>>>>>>> bushraj
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -165,6 +174,7 @@
             this.btnAllStudentLiving.UseVisualStyleBackColor = true;
             this.btnAllStudentLiving.Click += new System.EventHandler(this.btnAllStudentLiving_Click);
             // 
+<<<<<<< HEAD
             // button6
             // 
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -176,6 +186,20 @@
             this.button6.TabIndex = 9;
             this.button6.Text = "Update Employee";
             this.button6.UseVisualStyleBackColor = true;
+=======
+            // btnUpdateDeleteEmployee
+            // 
+            this.btnUpdateDeleteEmployee.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUpdateDeleteEmployee.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateDeleteEmployee.Location = new System.Drawing.Point(27, 576);
+            this.btnUpdateDeleteEmployee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnUpdateDeleteEmployee.Name = "btnUpdateDeleteEmployee";
+            this.btnUpdateDeleteEmployee.Size = new System.Drawing.Size(222, 36);
+            this.btnUpdateDeleteEmployee.TabIndex = 9;
+            this.btnUpdateDeleteEmployee.Text = " Update Employee";
+            this.btnUpdateDeleteEmployee.UseVisualStyleBackColor = true;
+            this.btnUpdateDeleteEmployee.Click += new System.EventHandler(this.btnUpdateDeleteEmployee_Click);
+>>>>>>> bushraj
             // 
             // btnNewEmployee
             // 
@@ -203,6 +227,7 @@
             this.btnLeavedStudents.UseVisualStyleBackColor = true;
             this.btnLeavedStudents.Click += new System.EventHandler(this.btnLeavedStudents_Click);
             // 
+<<<<<<< HEAD
             // button9
             // 
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -237,6 +262,45 @@
             this.button11.TabIndex = 14;
             this.button11.Text = "Leaved Employee";
             this.button11.UseVisualStyleBackColor = true;
+=======
+            // btnEmployeePayment
+            // 
+            this.btnEmployeePayment.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEmployeePayment.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmployeePayment.Location = new System.Drawing.Point(28, 636);
+            this.btnEmployeePayment.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEmployeePayment.Name = "btnEmployeePayment";
+            this.btnEmployeePayment.Size = new System.Drawing.Size(222, 36);
+            this.btnEmployeePayment.TabIndex = 12;
+            this.btnEmployeePayment.Text = "Employee payment";
+            this.btnEmployeePayment.UseVisualStyleBackColor = true;
+            this.btnEmployeePayment.Click += new System.EventHandler(this.btnEmployeePayment_Click);
+            // 
+            // btnAllEmployeeWorking
+            // 
+            this.btnAllEmployeeWorking.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAllEmployeeWorking.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAllEmployeeWorking.Location = new System.Drawing.Point(28, 696);
+            this.btnAllEmployeeWorking.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAllEmployeeWorking.Name = "btnAllEmployeeWorking";
+            this.btnAllEmployeeWorking.Size = new System.Drawing.Size(222, 36);
+            this.btnAllEmployeeWorking.TabIndex = 13;
+            this.btnAllEmployeeWorking.Text = "All Employee";
+            this.btnAllEmployeeWorking.UseVisualStyleBackColor = true;
+            this.btnAllEmployeeWorking.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // btnLeavedEmployee
+            // 
+            this.btnLeavedEmployee.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeavedEmployee.Location = new System.Drawing.Point(30, 756);
+            this.btnLeavedEmployee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLeavedEmployee.Name = "btnLeavedEmployee";
+            this.btnLeavedEmployee.Size = new System.Drawing.Size(222, 36);
+            this.btnLeavedEmployee.TabIndex = 14;
+            this.btnLeavedEmployee.Text = "Leaved Employee";
+            this.btnLeavedEmployee.UseVisualStyleBackColor = true;
+            this.btnLeavedEmployee.Click += new System.EventHandler(this.btnLeavedEmployee_Click);
+>>>>>>> bushraj
             // 
             // pictureBox1
             // 
@@ -255,12 +319,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1333, 882);
+<<<<<<< HEAD
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.btnLeavedStudents);
             this.Controls.Add(this.btnNewEmployee);
             this.Controls.Add(this.button6);
+=======
+            this.Controls.Add(this.btnLeavedEmployee);
+            this.Controls.Add(this.btnAllEmployeeWorking);
+            this.Controls.Add(this.btnEmployeePayment);
+            this.Controls.Add(this.btnLeavedStudents);
+            this.Controls.Add(this.btnNewEmployee);
+            this.Controls.Add(this.btnUpdateDeleteEmployee);
+>>>>>>> bushraj
             this.Controls.Add(this.btnAllStudentLiving);
             this.Controls.Add(this.btnStudentFees);
             this.Controls.Add(this.btnUpdateDeleteStudent);
@@ -274,6 +347,10 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "dashboard";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+<<<<<<< HEAD
+=======
+            this.Load += new System.EventHandler(this.dashboard_Load);
+>>>>>>> bushraj
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -292,12 +369,21 @@
         private System.Windows.Forms.Button btnUpdateDeleteStudent;
         private System.Windows.Forms.Button btnStudentFees;
         private System.Windows.Forms.Button btnAllStudentLiving;
+<<<<<<< HEAD
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnNewEmployee;
         private System.Windows.Forms.Button btnLeavedStudents;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+=======
+        private System.Windows.Forms.Button btnUpdateDeleteEmployee;
+        private System.Windows.Forms.Button btnNewEmployee;
+        private System.Windows.Forms.Button btnLeavedStudents;
+        private System.Windows.Forms.Button btnEmployeePayment;
+        private System.Windows.Forms.Button btnAllEmployeeWorking;
+        private System.Windows.Forms.Button btnLeavedEmployee;
+>>>>>>> bushraj
         private System.Windows.Forms.Button btnLogOut;
     }
 }

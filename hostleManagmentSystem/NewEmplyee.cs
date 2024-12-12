@@ -80,5 +80,10 @@ namespace hostleManagmentSystem
         {
             this.Close();   
         }
+<<<<<<< HEAD
+=======
+
+        
+>>>>>>> bushraj
     }
 }
