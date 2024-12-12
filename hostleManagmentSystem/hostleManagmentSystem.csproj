@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A39BA43A-CB75-42D2-9DE3-AE149619C039}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>hostleManagmentSystem</RootNamespace>
+    <AssemblyName>hostleManagmentSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRoom.Designer.cs">
+      <DependentUpon>AddRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllEmpployeeWorking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllEmpployeeWorking.Designer.cs">
+      <DependentUpon>AllEmpployeeWorking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllStudentLiving.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllStudentLiving.Designer.cs">
+      <DependentUpon>AllStudentLiving.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeePayment.Designer.cs">
+      <DependentUpon>EmployeePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function.cs" />
+    <Compile Include="LeavedEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeavedEmployee.Designer.cs">
+      <DependentUpon>LeavedEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeavedStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeavedStudent.Designer.cs">
+      <DependentUpon>LeavedStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewEmplyee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewEmplyee.Designer.cs">
+      <DependentUpon>NewEmplyee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewStudent.Designer.cs">
+      <DependentUpon>NewStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentFees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentFees.Designer.cs">
+      <DependentUpon>StudentFees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDeleteEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDeleteEmployee.Designer.cs">
+      <DependentUpon>UpdateDeleteEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDeleteStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDeleteStudent.Designer.cs">
+      <DependentUpon>UpdateDeleteStudent.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddRoom.resx">
+      <DependentUpon>AddRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllEmpployeeWorking.resx">
+      <DependentUpon>AllEmpployeeWorking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllStudentLiving.resx">
+      <DependentUpon>AllStudentLiving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeePayment.resx">
+      <DependentUpon>EmployeePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeavedEmployee.resx">
+      <DependentUpon>LeavedEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeavedStudent.resx">
+      <DependentUpon>LeavedStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewEmplyee.resx">
+      <DependentUpon>NewEmplyee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewStudent.resx">
+      <DependentUpon>NewStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentFees.resx">
+      <DependentUpon>StudentFees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDeleteEmployee.resx">
+      <DependentUpon>UpdateDeleteEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDeleteStudent.resx">
+      <DependentUpon>UpdateDeleteStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheap-inn-affordable-guesthouse-college-dormitory-motel-check-hostel-services-lower-priced-accommodation-best-hostel-facilities-concept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheap-inn-affordable-guesthouse-college-dormitory-motel-check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_17216753.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9027277_close_icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-1001.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
